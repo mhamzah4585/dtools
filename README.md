@@ -30,6 +30,8 @@ git clone git@github.com:Dark-Alex-17/devtools.git ~/.local/share/devtools && pu
 This will install the repo to `~/.local/share/devtools` and run the `make install` command to build and install the
 script to your local bin directory (usually `~/.local/bin`).
 
+This will also install the tab completions to your `~./bashrc`, so be sure to `source ~/.bashrc` to enable the completions.
+
 Just run `dtools --help` to get started!
 
 ---
