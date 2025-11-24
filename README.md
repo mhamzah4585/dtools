@@ -1,4 +1,4 @@
-# devtools
+# Devtools
 **Devtools (`dtools`)** is a comprehensive CLI utility that consolidates reusable development scripts, tools, and 
 references into a single, easy-to-use interface. Built with the [Bashly](https://github.com/DannyBen/bashly) framework, it serves multiple purposes:
 
