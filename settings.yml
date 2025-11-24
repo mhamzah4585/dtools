@@ -13,7 +13,7 @@
 source_dir: src
 
 # The path to bashly.yml
-config_path: '%{source_dir}/bashly.yml'
+config_path: '%{source_dir}/dtools.yml'
 
 # The path to use for creating the bash script
 target_dir: .
@@ -45,7 +45,7 @@ compact_short_flags: false
 # Set to 'production' or 'development':
 # env: production    Generate a smaller script, without file markers
 # env: development   Generate with file markers
-env: development
+env: production
 
 # The extension to use when reading/writing partial script snippets
 partials_extension: sh
