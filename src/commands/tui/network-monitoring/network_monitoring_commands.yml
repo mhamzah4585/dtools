@@ -27,3 +27,8 @@ commands:
     help: Terminal network scanner and diagnostic tool (netscanner)
     dependencies:
       netscanner: See 'https://github.com/Chleba/netscanner'
+
+  - name: upkit
+    help: A modern, cross‑platform CLI to monitor websites and APIs. (uptimekit)
+    dependencies:
+      upkit: See 'https://github.com/abhixdd/UptimeKit-CLI'
