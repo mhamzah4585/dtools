@@ -46,7 +46,7 @@ jobs:
           name=$bin-$version
 
           mkdir $dist_dir
-          cp $executable $dist_dir
+          cp $bin $dist_dir
           cd $dist_dir
 
           archive=$dist_dir/$name.tar.gz
