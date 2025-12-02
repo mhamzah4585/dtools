@@ -3,3 +3,7 @@ validate_port_number() {
     red_bold "The port number provided is invalid: $1"
   fi
 }
+
+validate_device_exists () {
+  [[ -e /dev/sde ]] || red_bold "The specified device does not exist: $1"
+}

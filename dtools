@@ -8076,6 +8076,10 @@ validate_port_number() {
 	fi
 }
 
+validate_device_exists () {
+	[[ -e /dev/sde ]] || red_bold "The specified device does not exist: $1"
+}
+
 validate_dir_exists() {
 	if [[ ! -d "$1" ]]; then
 		echo "must be an existing directory"
