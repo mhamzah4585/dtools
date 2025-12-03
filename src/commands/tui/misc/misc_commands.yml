@@ -108,3 +108,5 @@ commands:
 
   - name: brew-explorer
     help: A beautiful terminal UI for exploring and managing your Homebrew packages with ease
+    dependencies:
+      brew-explorer: See 'https://github.com/cosmincatalin/brew-explorer'
